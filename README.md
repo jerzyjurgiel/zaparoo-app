@@ -59,4 +59,6 @@ All contributors to the app will be included here and in the About page of the a
 - RetroCastle - Chinese (Simplified)/中文
 - Seexelas - French/Français
 
+## Trademarks
 
+This repository contains Zaparoo trademark assets which are explicitly licensed to this project in this location by the trademark owner. These trademarks must be removed from the project or replaced if you intend to redistribute the project in any form. See the Zaparoo [Terms of Use](https://zaparoo.org/terms/) for further details.
