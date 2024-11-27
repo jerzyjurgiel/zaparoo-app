@@ -1,0 +1,145 @@
+{
+  "translation": {
+    "nav": {
+      "cancel": "Annuleren",
+      "create": "Creëren",
+      "assign": "Toewijzen",
+      "index": "Scan",
+      "design": "Ontwerpen",
+      "settings": "Instellingen"
+    },
+    "spinner": {
+      "notSupportedLabel": "Apparaat ondersteunt geen NFC",
+      "notSupportedSub": "Je zult geen NFC-lees- of schrijf-functies in deze app kunnen gebruiken",
+      "nfcDisabledLabel": "NFC-toegang uitgeschakeld",
+      "nfcDisabledSub": "Schakel NFC-toegang in je apparaatinstellingen in voor NFC-lees- en schrijf-functies",
+      "holdTag": "Houd tag bij telefoon",
+      "scanning": "Scannen",
+      "pressToScan": "Druk om te scannen",
+      "writeSuccess": "Tag succesvol geschreven",
+      "writeFailed": "Schrijven naar tag mislukt"
+    },
+    "toast": {
+      "updateDbHeading": "Games-database bijwerken",
+      "preparingDb": "Database voorbereiden",
+      "writingDb": "Database naar schijf schrijven",
+      "hideLabel": "Verbergen",
+      "updatedDb": "Games-database bijgewerkt",
+      "filesFound": "{{count}} games gevonden",
+      "nowPlayingHeading": "Nu aan het spelen"
+    },
+    "scan": {
+      "cameraMode": "Camera",
+      "nfcMode": "NFC",
+      "scanError": "Fout bij scannen van tag",
+      "noDevices": "Geen Zaparoo-apparaten gevonden",
+      "continuous": "Continu scannen",
+      "launchOnScan": "Start bij scannen",
+      "connectedHeading": "Verbonden",
+      "connectedSub": "IP: {{ip}}",
+      "nowPlayingHeading": "Nu aan het spelen",
+      "nowPlayingName": "Naam: {{game}}",
+      "nowPlayingSystem": "Systeem: {{system}}",
+      "lastScannedHeading": "Laatst gescand",
+      "lastScannedTime": "Tijd: {{time}}",
+      "lastScannedUid": "UID: {{uid}}",
+      "lastScannedText": "Tekst: {{text}}",
+      "historyTitle": "Scan geschiedenis",
+      "purchaseProTitle": "Zaparoo Pro",
+      "purchaseProIntro": "Zaparoo Pro kan worden ontgrendeld met een eenmalige aankoop van {{price}}, wat zal helpen bij de toekomstige ontwikkeling van TapTo.",
+      "purchaseProFeatures": "Pro bevat de 'Start bij scannen'-functie, die je telefoon verandert in een draadloze Zaparoo-lezer! Alle toekomstige Pro-functies zijn zonder extra kosten inbegrepen.",
+      "purchaseProAction": "Ontgrendel Zaparoo Pro",
+      "completeIntro": "Laten we Zaparoo"
+    },
+    "create": {
+      "title": "Maak een nieuwe tag",
+      "searchGameHeading": "Zoek naar game",
+      "searchGameSub": "Op het verbonden apparaat",
+      "currentGameHeading": "Huidige game",
+      "currentGameSub": "Schrijf '{{game}}' naar een tag",
+      "currentGameSubFallback": "Schrijf 'Nu aan het spelen' naar een tag",
+      "customHeading": "Aangepaste tekst",
+      "customSub": "Schrijf een string naar een tag",
+      "nfcHeading": "NFC-hulpprogramma's",
+      "nfcSub": "Lees en formatteer NFC-tags",
+      "mappingsHeading": "Koppelingen",
+      "mappingsSub": "Wijs tokens toe aan commando's",
+      "search": {
+        "searchButton": "Zoeken",
+        "gamesDbUpdate": "Games-database moet worden bijgewerkt voordat je kunt zoeken",
+        "searchError": "Fout bij zoeken naar games",
+        "noGamesFound": "Geen games gevonden",
+        "gamesFound": "{{count}} games gevonden",
+        "gamesFoundMax": "{{count}} games gevonden (eerste {{max}} weergegeven)",
+        "title": "Zoek naar game",
+        "gameInput": "Game",
+        "gameInputPlaceholder": "Voer een gamenaam in",
+        "systemInput": "Systeem",
+        "allSystems": "Alle systemen",
+        "systemLabel": "Systeem:",
+        "pathLabel": "Pad:",
+        "writeLabel": "Schrijf naar tag",
+        "playLabel": "Spelen"
+      },
+      "custom": {
+        "title": "Aangepaste tekst",
+        "textPlaceholder": "Voer tagtekst in",
+        "write": "Schrijf naar tag",
+        "run": "Uitvoeren",
+        "clear": "Wissen",
+        "failMsg": "Tag uitvoeren mislukt"
+      },
+      "nfc": {
+        "title": "NFC-hulpprogramma's",
+        "read": "Lees taggegevens",
+        "format": "Formatteer tag",
+        "erase": "Wis tag",
+        "makeReadOnly": "Maak tag alleen-lezen"
+      }
+    },
+    "settings": {
+      "title": "Instellingen",
+      "device": "Apparaatadres",
+      "modeLabel": "Lezermodus",
+      "tapMode": "Tik",
+      "insertMode": "Invoegen",
+      "insertHelp": "Sluit de game af wanneer de tag wordt verwijderd. Vereist een aparte NFC-lezer.",
+      "updateDb": "Games-database bijwerken",
+      "designer": "Zaparoo Ontwerper",
+      "language": "Taal",
+      "about": {
+        "title": "Over",
+        "version": "Versie: {{version}}",
+        "createdBy": "Gemaakt door",
+        "translationsBy": "Vertalingen door",
+        "contributors": "Zaparoo-bijdragers",
+        "wizzodev": "Wizzo.dev Patrons"
+      },
+      "advanced": {
+        "title": "Geavanceerde instellingen",
+        "soundEffects": "Geluidseffecten afspelen bij scannen",
+        "autoDetect": "Automatisch externe NFC-lezer detecteren",
+        "debug": "Debug-modus",
+        "nfcDriver": "NFC-driver verbindingsreeks",
+        "insertModeBlocklist": "Insert-modus core-blocklist",
+        "downloadLog": "Download Zaparoo-logbestand",
+        "restorePurchases": "Aankopen herstellen",
+        "restoreSuccess": "Aankopen zijn hersteld",
+        "restoreFail": "Aankopen herstellen mislukt"
+      },
+      "help": {
+        "title": "Help",
+        "taptoWiki": "Zaparoo Wiki",
+        "documentationLabel": "Documentatie",
+        "gettingStarted": "Aan de slag met Zaparoo",
+        "softwareSetup": "Zaparoo software-installatie",
+        "commandReference": "TapScript-referentie",
+        "communityLabel": "Gemeenschap",
+        "discord": "Word lid van de Discord-server",
+        "technicalSupport": "Technische ondersteuning",
+        "reportIssue": "Meld een probleem op GitHub",
+        "emailLabel": "Support-e-mail:"
+      }
+    }
+  }
+}

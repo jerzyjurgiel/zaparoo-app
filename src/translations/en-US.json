@@ -1,0 +1,145 @@
+{
+  "translation": {
+    "nav": {
+      "cancel": "Cancel",
+      "create": "Create",
+      "assign": "Assign",
+      "index": "Scan",
+      "design": "Design",
+      "settings": "Settings"
+    },
+    "spinner": {
+      "notSupportedLabel": "Device does not support NFC",
+      "notSupportedSub": "You will not be able to use any NFC reading or writing features in this app",
+      "nfcDisabledLabel": "NFC access disabled",
+      "nfcDisabledSub": "Please enable NFC access in your device settings for NFC reading and writing features",
+      "holdTag": "Hold tag to phone",
+      "scanning": "Scanning",
+      "pressToScan": "Press to scan",
+      "writeSuccess": "Tag written successfully",
+      "writeFailed": "Failed to write tag"
+    },
+    "toast": {
+      "updateDbHeading": "Updating games database",
+      "preparingDb": "Preparing database",
+      "writingDb": "Writing database to disk",
+      "hideLabel": "Hide",
+      "updatedDb": "Games database updated",
+      "filesFound": "{{count}} games found",
+      "nowPlayingHeading": "Now playing"
+    },
+    "scan": {
+      "cameraMode": "Camera",
+      "nfcMode": "NFC",
+      "scanError": "Error scanning tag",
+      "noDevices": "No Zaparoo Devices Found",
+      "continuous": "Continuous scanning",
+      "launchOnScan": "Launch on scan",
+      "connectedHeading": "Connected",
+      "connectedSub": "IP: {{ip}}",
+      "nowPlayingHeading": "Now playing",
+      "nowPlayingName": "Name: {{game}}",
+      "nowPlayingSystem": "System: {{system}}",
+      "lastScannedHeading": "Last scanned",
+      "lastScannedTime": "Time: {{time}}",
+      "lastScannedUid": "UID: {{uid}}",
+      "lastScannedText": "Text: {{text}}",
+      "historyTitle": "Scan History",
+      "purchaseProTitle": "Zaparoo Pro",
+      "purchaseProP1": "Zaparoo Pro can be unlocked with a one-time purchase of {{price}}, which will help support future development of Zaparoo.",
+      "purchaseProP2": "Pro includes the Launch on scan feature, which turns your phone into a wireless Zaparoo reader! All future Pro features will be included at no extra cost.",
+      "purchaseProAction": "Unlock Zaparoo Pro",
+      "completeIntro": "Let's Zaparoo"
+    },
+    "create": {
+      "title": "Create a New Tag",
+      "searchGameHeading": "Search for game",
+      "searchGameSub": "On the connected device",
+      "currentGameHeading": "Current game",
+      "currentGameSub": "Write '{{game}}' to a tag",
+      "currentGameSubFallback": "Write 'Now Playing' to a tag",
+      "customHeading": "Custom text",
+      "customSub": "Write a string to a tag",
+      "nfcHeading": "NFC utilities",
+      "nfcSub": "Read and format NFC tags",
+      "mappingsHeading": "Mappings",
+      "mappingsSub": "Assign tokens to commands",
+      "search": {
+        "searchButton": "Search",
+        "gamesDbUpdate": "Games database must be updated before searching",
+        "searchError": "Error searching for games",
+        "noGamesFound": "No games found",
+        "gamesFound": "{{count}} games found",
+        "gamesFoundMax": "{{count}} games found (showing first {{max}})",
+        "title": "Search for Game",
+        "gameInput": "Game",
+        "gameInputPlaceholder": "Enter a game name",
+        "systemInput": "System",
+        "allSystems": "All systems",
+        "systemLabel": "System:",
+        "pathLabel": "Path:",
+        "writeLabel": "Write to tag",
+        "playLabel": "Play"
+      },
+      "custom": {
+        "title": "Custom Text",
+        "textPlaceholder": "Enter tag text",
+        "write": "Write to tag",
+        "run": "Run",
+        "clear": "Clear",
+        "failMsg": "Failed to run tag"
+      },
+      "nfc": {
+        "title": "NFC Utilities",
+        "read": "Read tag data",
+        "format": "Format tag",
+        "erase": "Erase tag",
+        "makeReadOnly": "Make tag read-only"
+      }
+    },
+    "settings": {
+      "title": "Settings",
+      "device": "Device address",
+      "modeLabel": "Reader mode",
+      "tapMode": "Tap",
+      "insertMode": "Insert",
+      "insertHelp": "Exits the game when tag is removed. Requires a separate NFC reader.",
+      "updateDb": "Update games database",
+      "designer": "Zaparoo Designer",
+      "language": "Language",
+      "about": {
+        "title": "About",
+        "version": "Version: {{version}}",
+        "createdBy": "Created by",
+        "translationsBy": "Translations by",
+        "contributors": "Zaparoo contributors",
+        "wizzodev": "Wizzo.dev Patrons"
+      },
+      "advanced": {
+        "title": "Advanced Settings",
+        "soundEffects": "Play sounds effects on scan",
+        "autoDetect": "Auto-detect external NFC reader",
+        "debug": "Debug mode",
+        "nfcDriver": "NFC driver connection string",
+        "insertModeBlocklist": "Insert mode core blocklist",
+        "downloadLog": "Download Zaparoo log file",
+        "restorePurchases": "Restore purchases",
+        "restoreSuccess": "Purchases have been restored",
+        "restoreFail": "Failed to restore purchases"
+      },
+      "help": {
+        "title": "Help",
+        "taptoWiki": "Zaparoo Wiki",
+        "documentationLabel": "Documentation",
+        "gettingStarted": "Getting started with Zaparoo",
+        "softwareSetup": "Zaparoo software setup",
+        "commandReference": "TapScript reference",
+        "communityLabel": "Community",
+        "discord": "Join the Discord server",
+        "technicalSupport": "Technical Support",
+        "reportIssue": "Report an issue on GitHub",
+        "emailLabel": "Support email:"
+      }
+    }
+  }
+}

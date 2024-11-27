@@ -1,0 +1,127 @@
+{
+  "translation": {
+    "nav": {
+      "create": "Créer",
+      "index": "Scanner",
+      "settings": "Réglages"
+    },
+    "spinner": {
+      "notSupportedLabel": "Le périphérique ne supporte pas le NFC",
+      "notSupportedSub": "L'écriture / lecture ne sera pas disponible dans cette app",
+      "nfcDisabledLabel": "Fonction NFC désactivée",
+      "nfcDisabledSub": "Merci d'activer la fonction NFC dans les règlages pour pouvoir lire et écrire les tags",
+      "holdTag": "Garder le tag contre le téléphone",
+      "scanning": "Scan en cours",
+      "pressToScan": "Appuyer pour scanner",
+      "writeSuccess": "Tag écrit avec succès",
+      "writeFailed": "Erreur lors de l'écriture du tag"
+    },
+    "toast": {
+      "updateDbHeading": "Mise à jour de la base de données des jeux",
+      "preparingDb": "Base de donnée en préparation",
+      "writingDb": "Ecriture en cours vers la base de données",
+      "hideLabel": "Cacher",
+      "updatedDb": "Base de donnée à jours",
+      "filesFound": "{{count}} jeux découverts",
+      "nowPlayingHeading": "Jeu en cours"
+    },
+    "scan": {
+      "scanError": "Erreur lors du scan",
+      "noDevices": "Aucun périphérique Zaparoo détecté",
+      "continuous": "Scan en continue",
+      "launchOnScan": "Démarrer après le scan",
+      "connectedHeading": "Connecté",
+      "connectedSub": "IP : {{ip}}",
+      "nowPlayingHeading": "Démarrage de",
+      "nowPlayingName": "Nom: {{game}}",
+      "nowPlayingSystem": "Système : {{system}}",
+      "lastScannedHeading": "Dernier scan",
+      "lastScannedTime": "Date: {{time}}",
+      "lastScannedUid": "UID :  {{uid}}",
+      "lastScannedText": "Texte: {{text}}",
+      "historyTitle": "Historique des scans",
+      "purchaseLauncherTitle": "Démarrage auto. après scan",
+      "purchaseLauncherP1": "Le Démarrage auto. après scan est une fonction payante et à vie de Zaparoo, qui permet de lancer les tags scannés sur le périphérique Zaparoo connecté. Transformez votre téléphone en lecteur Zaparoo sans fil !",
+      "purchaseLauncherP2": "Vous pouvez activer cette fonction avec un achat unique de {{price}}, ce qui permettra de supporter le développement futur de Zaparoo.",
+      "purchaseLauncherBuy": "Acheter la fonction : Demarrage après le scan",
+      "completeIntro": "Let's Zaparoo"
+    },
+    "create": {
+      "title": "Créer un nouveau Tag",
+      "searchGameHeading": "Rechercher un jeu",
+      "searchGameSub": "Sur le périphérique connecté",
+      "currentGameHeading": "Jeu sélectionné",
+      "currentGameSub": "Ecrire \"{{game}}\" sur le tag",
+      "currentGameSubFallback": "Ecrire \"jeu en cours",
+      "customHeading": "Texte customisé",
+      "customSub": "Ecrire une ligne de code vers le tag",
+      "search": {
+        "gamesDbUpdate": "La base de données des jeux doit être mise à jours avant de lancer une recherche",
+        "searchError": "Erreur durant la recherche des jeux",
+        "noGamesFound": "Aucun jeux trouvés",
+        "gamesFound": "{{count}} jeux découverts",
+        "gamesFoundMax": "{{count}} jeux découverts (showing first {{max}})",
+        "title": "Rechercher un jeu",
+        "gameInput": "Jeu",
+        "gameInputPlaceholder": "Entrer le nom d'un jeu",
+        "systemInput": "Système",
+        "allSystems": "Tous les systèmes",
+        "systemLabel": "Système:",
+        "pathLabel": "Chemin",
+        "writeLabel": "Ecrire vers le tag",
+        "playLabel": "Jouer"
+      },
+      "custom": {
+        "title": "Texte customisé",
+        "textPlaceholder": "Ecrire le texte customisé",
+        "write": "Ecrire vers le tag",
+        "run": "Démarrer",
+        "clear": "Effacer",
+        "failMsg": "Erreur lors du lancement du tag"
+      }
+    },
+    "settings": {
+      "title": "Réglages",
+      "device": "Adresse IP du périphérique",
+      "modeLabel": "Mode lecture",
+      "tapMode": "Appuyer",
+      "insertMode": "Insérer",
+      "insertHelp": "Quitter le jeu lors du retrait du tag. Nécessite un lecteur à part.",
+      "updateDb": "Mise à jour de la base de données des jeux",
+      "designer": "Zaparoo designer",
+      "language": "Langue",
+      "about": {
+        "title": "A propos",
+        "version": "Version : {{version}}",
+        "createdBy": "Développé par",
+        "translationsBy": "Traduction par",
+        "contributors": "Contributeurs Zaparoo",
+        "wizzodev": "Wizzo.dev Patrons"
+      },
+      "advanced": {
+        "title": "Réglages avancées",
+        "soundEffects": "Jouer un son lors du scan",
+        "autoDetect": "Détection auto. du lecteur externe NFC",
+        "debug": "Mode débug",
+        "nfcDriver": "Code de connection pour le driver NFC",
+        "insertModeBlocklist": "Insert mode core blocklist",
+        "downloadLog": "Télécharger les logs de Zaparoo",
+        "restorePurchases": "Restaurer les achats",
+        "restoreSuccess": "Achats restaurés",
+        "restoreFail": "Echec lors de la restauration des achats"
+      },
+      "help": {
+        "title": "Aide",
+        "documentationLabel": "Documentation",
+        "gettingStarted": "Guide de démarrage pour Zaparoo",
+        "softwareSetup": "Configuration de Zaparoo",
+        "commandReference": "Référence pour le taf customisé.",
+        "communityLabel": "Communauté",
+        "discord": "Rejoindre le serveur Discord",
+        "technicalSupport": "Support Technique",
+        "reportIssue": "Rapporter un bug sur GitHub",
+        "emailLabel": "Support :"
+      }
+    }
+  }
+}

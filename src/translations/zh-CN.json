@@ -1,0 +1,126 @@
+{
+  "translation": {
+    "nav": {
+      "create": "编辑",
+      "index": "扫描",
+      "settings": "设置"
+    },
+    "spinner": {
+      "notSupportedLabel": "设备不支持NFC",
+      "notSupportedSub": "您不能使用这个app上的任何NFC读取和写入功能",
+      "nfcDisabledLabel": "NFC权限被禁用",
+      "nfcDisabledSub": "请在您的设备上启用NFC读取和写入功能",
+      "holdTag": "保持卡片紧贴手机",
+      "scanning": "正在扫描",
+      "pressToScan": "轻触扫描",
+      "writeSuccess": "标签写入成功",
+      "writeFailed": "标签写入失败"
+    },
+    "toast": {
+      "updateDbHeading": "正在升级游戏资料库",
+      "preparingDb": "正在准备游戏资料库",
+      "writingDb": "正在将资料库写入磁盘",
+      "hideLabel": "隐藏",
+      "updatedDb": "游戏资料库已升级",
+      "filesFound": "{{count}}游戏已找到",
+      "nowPlayingHeading": "开始游戏"
+    },
+    "scan": {
+      "scanError": "标签扫描失败",
+      "noDevices": "没有发现支持Zaparoo的设备",
+      "continuous": "持续扫描",
+      "launchOnScan": "Launch on scan",
+      "connectedHeading": "已连接",
+      "connectedSub": "IP: {{ip}}",
+      "nowPlayingHeading": "正在游戏",
+      "nowPlayingName": "名称: {{game}}",
+      "nowPlayingSystem": "机种: {{system}}",
+      "lastScannedHeading": "上次扫描",
+      "lastScannedTime": "时间: {{time}}",
+      "lastScannedUid": "UID: {{uid}}",
+      "lastScannedText": "文本: {{text}}",
+      "historyTitle": "扫描历史",
+      "purchaseLauncherTitle": "扫描启动",
+      "purchaseLauncherP1": "扫描启动是一个付费的Zaparoo 生态功能，使扫描的标签在连接的Zaparoo设备上启动。把你的手机变成无线NFC读卡器!",
+      "purchaseLauncherP2": "您可以通过一次性购买{{price}}来启用它，这将有助于支持Zaparoo的未来发展。",
+      "purchaseLauncherBuy": "购买扫描启动功能",
+      "completeIntro": "开始Zaparoo"
+    },
+    "create": {
+      "title": "创建一个新的标签",
+      "searchGameHeading": "搜索游戏",
+      "searchGameSub": "在连接的设备上",
+      "currentGameHeading": "目前的游戏",
+      "currentGameSub": "写入 '{{game}}' 到标签",
+      "currentGameSubFallback": "写入 'Now Playing' 到标签",
+      "customHeading": "自定义文本",
+      "customSub": "将字符串写入标签",
+      "search": {
+        "gamesDbUpdate": "使用搜索功能前必须升级游戏数据库",
+        "searchError": "搜索游戏错误",
+        "noGamesFound": "没找到游戏",
+        "gamesFound": "{{count}}找到游戏",
+        "gamesFoundMax": "{{count}} 找到游戏 (showing first {{max}})",
+        "title": "搜索游戏",
+        "gameInput": "游戏",
+        "gameInputPlaceholder": "输入一个游戏名",
+        "systemInput": "机种",
+        "allSystems": "所有机种",
+        "systemLabel": "机种：",
+        "pathLabel": "路径：",
+        "writeLabel": "写入标签",
+        "playLabel": "游戏"
+      },
+      "custom": {
+        "title": "自定义文本",
+        "textPlaceholder": "输入标签文本",
+        "write": "写入标签",
+        "run": "运行",
+        "clear": "清除",
+        "failMsg": "运行标签失败"
+      }
+    },
+    "settings": {
+      "title": "设置",
+      "device": "设备IP地址",
+      "modeLabel": "读卡器模式",
+      "tapMode": "刷卡",
+      "insertMode": "保持",
+      "insertHelp": "当卡片移开时游戏退出，此功能需要一个单独的NFC读卡器",
+      "updateDb": "升级游戏数据库",
+      "designer": "Zaparoo设计者",
+      "language": "语言",
+      "about": {
+        "title": "关于",
+        "version": "版本: {{version}}",
+        "createdBy": "创造于",
+        "translationsBy": "翻译于",
+        "contributors": "Zaparoo开发者"
+      },
+      "advanced": {
+        "title": "高级设置",
+        "soundEffects": "扫描音效",
+        "autoDetect": "自动选择外部读卡器",
+        "debug": "除错模式",
+        "nfcDriver": "NFC设备连接模式",
+        "insertModeBlocklist": "插入模式核心列表",
+        "downloadLog": "下载Zaparoo log文件",
+        "restorePurchases": "恢复购买权限",
+        "restoreSuccess": "购买权限已被恢复",
+        "restoreFail": "购买权限恢复失败"
+      },
+      "help": {
+        "title": "帮助",
+        "documentationLabel": "说明文档",
+        "gettingStarted": "开始Zaparoo",
+        "softwareSetup": "Zaparoo软件设置",
+        "commandReference": "自定义标签命令设置",
+        "communityLabel": "群",
+        "discord": "加入discord社区",
+        "technicalSupport": "技术支持",
+        "reportIssue": "在GitHub上反馈问题",
+        "emailLabel": "支持邮箱："
+      }
+    }
+  }
+}
