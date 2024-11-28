@@ -278,6 +278,7 @@ function Settings() {
               <option value="nl-NL">Nederlands</option>
               <option value="ko-KR">한국어</option>
               <option value="zh-CN">中文</option>
+              <option value="pl-PL">Polski</option>
             </select>
           </div>
 

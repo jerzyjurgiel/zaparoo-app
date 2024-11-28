@@ -1,0 +1,146 @@
+{
+  "translation": {
+    "nav": {
+      "cancel": "Anuluj",
+      "create": "Stwórz",
+      "assign": "Przypisz",
+      "index": "Skanuj",
+      "design": "Projektuj",
+      "settings": "Ustawienia"
+    },
+    "spinner": {
+      "notSupportedLabel": "Urządzenie nie wspiera NFC",
+      "notSupportedSub": " Nie będziesz w stanie używać żadnych funkcji pisania/czytania przy pomocy NFC w tej aplikacji",
+      "nfcDisabledLabel": "Dostęp do NFC zablokowany",
+      "nfcDisabledSub": "Proszę włącz dostęp do NFC w ustawianich swojego urządzenia, aby umożliwić czytanie oraz zapisywanie przy jego pomocy.",
+      "holdTag": "Przyłuż tag do telefonu",
+      "scanning": "Skanowanie",
+      "pressToScan": "Naciśnij aby zeskanować",
+      "writeSuccess": "Tag zapisany pomyślnie",
+      "writeFailed": "Niepowodzenie przy zapisywaniu tag'a"
+    },
+    "toast": {
+      "updateDbHeading": "Aktualizacja bazy gier",
+      "preparingDb": "Przygotowywanie bazy danych",
+      "writingDb": "Zapisaywanie bazy danych na dysk",
+      "hideLabel": "Ukryj",
+      "updatedDb": "Baza danych została zaktualizowana",
+      "filesFound": "{{count}} znalezionych gier",
+      "nowPlayingHeading": "Teraz gra"
+    },
+    "scan": {
+      "cameraMode": "Aparat",
+      "nfcMode": "NFC",
+      "scanError": "Błąd skanowania tag'a",
+      "noDevices": "Brak urządzeń Zaparoo",
+      "continuous": "Ciągłe skanowanie",
+      "launchOnScan": "Uruchom na skan",
+      "connectedHeading": "Połączono",
+      "connectedSub": "IP: {{ip}}",
+      "nowPlayingHeading": "Teraz gra",
+      "nowPlayingName": "Nazwa: {{game}}",
+      "nowPlayingSystem": "System: {{system}}",
+      "lastScannedHeading": "Ostatnio skanowane",
+      "lastScannedTime": "Czas: {{time}}",
+      "lastScannedUid": "UID: {{uid}}",
+      "lastScannedText": "Tekst: {{text}}",
+      "historyTitle": "Historia skanowania",
+      "purchaseProTitle": "Zaparoo Pro",
+      "purchaseProP1": "Zaparoo Pro może zostać odblokowane za jednorazową płatność w wysokości {{price}}, która wesprze rozwój systemu Zaparoo.",
+      "purchaseProP2": "Pro zawiera funkcję Uruchom na skan, która zamienia twój telefon na bezprzewodowy czytnik Zaparoo! Wszystkie przyszłe funkcjonalności Pro, zostaną dodane bez dodatkowych opłat",
+      "purchaseProAction": "Odblokuj Zaparoo Pro",
+      "completeIntro": "Zacznijmy Zaparoo"
+    },
+    "create": {
+      "title": "Stwórz nowy Tag",
+      "searchGameHeading": "Wyszukaj grę",
+      "searchGameSub": "Na podłączonym urządzeniu",
+      "currentGameHeading": "Aktualna gra",
+      "currentGameSub": "Zapisz '{{game}}' do tag'a",
+      "currentGameSubFallback": "Zapisz 'Teraz gra' do tag'a",
+      "customHeading": "Własny tekst",
+      "customSub": "Zapisz tekst do tag'a",
+      "nfcHeading": "Narzędzia NFC",
+      "nfcSub": "Czytaj i formatuj tagi NFC",
+      "mappingsHeading": "Mapowania",
+      "mappingsSub": "Przypisz token do polecenia",
+      "search": {
+        "searchButton": "Szukaj",
+        "gamesDbUpdate": "Baza gier musi zostać zaktualizowana przed wyszukiwaniem",
+        "searchError": "Błąd przy wyszukiwaniu gier",
+        "noGamesFound": "Nie znaleziono gier",
+        "gamesFound": "Znaleziono {{count}} gier",
+        "gamesFoundMax": "Znaleziono {{count}} gier (pokazane pierwsze {{max}})",
+        "title": "Szukaj Gry",
+        "gameInput": "Gra",
+        "gameInputPlaceholder": "Wpisz nazwę gry",
+        "systemInput": "System",
+        "allSystems": "Wszystkie systemy",
+        "systemLabel": "System:",
+        "pathLabel": "Ścieżka:",
+        "writeLabel": "Zapisz tag",
+        "playLabel": "Graj"
+      },
+      "custom": {
+        "title": "Własny Tekst",
+        "textPlaceholder": "Wpisz tekst tag'a",
+        "write": "Zapisz tag",
+        "run": "Uruchom",
+        "clear": "Wyczyść",
+        "failMsg": "Niepowodzenie w uruchomieniu tag'a"
+      },
+      "nfc": {
+        "title": "Narzędzia NFC",
+        "read": "Czytaj dane tag'a",
+        "format": "Formatuj tag",
+        "erase": "Wyczyść tag",
+        "makeReadOnly": "Ustaw tag tylko do odczytu"
+      }
+    },
+    "settings": {
+      "title": "Ustawienia",
+      "device": "Adres urządzenia",
+      "modeLabel": "Tryb czytnika",
+      "tapMode": "Przyłóż",
+      "insertMode": "Wsadź",
+      "insertHelp": "Wyłącza grę gry tag jest zabrany. Wymaga osobnego czytnika NFC.",
+      "updateDb": "Aktualizuj bazę gier",
+      "designer": "Projektant Zaparoo",
+      "language": "Język",
+      "about": {
+        "title": "O nas",
+        "version": "Wersja: {{version}}",
+        "createdBy": "Stworzono przez",
+        "translationsBy": "Tłumaczone przez",
+        "contributors": "Współautorzy Zaparoo",
+        "wizzodev": "Patroni Wizzo.dev"
+      },
+      "advanced": {
+        "title": "Zaawansowane ustawienia",
+        "soundEffects": "Wydaj dźwięk po zeskanowaniu",
+        "autoDetect": "Automatycznie wykrywaj zewnętrzny czytnik NFC",
+        "debug": "Tryb Debug",
+        "nfcDriver": "String połączenia do sterownika NFC",
+        "insertModeBlocklist": "Insert mode core blocklist",
+        "insertModeBlocklist": "Lista zablokowanych Core'ów dla trybu Wsadzania",
+        "downloadLog": "Pobierz plik logów Zaparoo",
+        "restorePurchases": "Przywróć zakupy",
+        "restoreSuccess": "Zakupy zostały przywrócone",
+        "restoreFail": "Niepowodzenie przy przywracaniu zakupów"
+      },
+      "help": {
+        "title": "Pomoc",
+        "taptoWiki": "Zaparoo Wiki",
+        "documentationLabel": "Dokumentacja",
+        "gettingStarted": "Rozpocznij pracę z Zaparoo",
+        "softwareSetup": "Ustawienia oprogramowania Zaparoo",
+        "commandReference": "Referencje TapScript",
+        "communityLabel": "Społeczność",
+        "discord": "Dołącz do serwera Discord",
+        "technicalSupport": "Wsparcie techniczne",
+        "reportIssue": "Zgłoś problem na GitHub",
+        "emailLabel": "e-mail wsparcia:"
+      }
+    }
+  }
+}

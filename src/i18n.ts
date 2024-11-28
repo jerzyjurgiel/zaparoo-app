@@ -7,6 +7,7 @@ import zh_CN from "./translations/zh-CN.json";
 import ko_KR from "./translations/ko-KR.json";
 import fr_FR from "./translations/fr-FR.json";
 import nl_NL from "./translations/nl-NL.json";
+import pl_PL from "./translations/pl-PL.json";
 
 const resources = {
   en: en_US,
@@ -20,6 +21,8 @@ const resources = {
   "ko-KR": ko_KR,
   nl: nl_NL,
   "nl-NL": nl_NL,
+  pl: pl_PL,
+  "pl-PL": pl_PL
 };
 
 i18n
